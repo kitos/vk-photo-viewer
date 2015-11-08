@@ -8,14 +8,9 @@ export default class UnauthorizedBlock extends React.Component {
             <div>
                 <h2>You are not authorized.</h2>
 
-                <div id='vk-auth-btn-wrap' onClick={this.login.bind(this)}></div>
+                <div id='vk-auth-btn-wrap' onClick={this.props.onLogin}></div>
             </div>
         );
-    }
-
-    login() {
-        this.props.vk.login()
-            .then(this.props.onLogin);
     }
 
     componentDidMount() {

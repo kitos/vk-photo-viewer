@@ -40,9 +40,13 @@ export default class AppComponent extends React.Component {
             });
     }
 
-    onLogin(session) {
-        this.setState({session, loading: true});
-        this.loadFriends();
+    onLogin() {
+        this.setState({loading: true});
+        this.state.vk.login()
+            .then((session) => {
+                this.setState({session});
+                this.loadFriends()
+            })
     }
 
     onSelectUser(selectedUser) {
