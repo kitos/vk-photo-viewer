@@ -13,6 +13,10 @@
     "vk"
   ],
   "author": "Nikita Kirsanov",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kitos/vk-photo-viewer.git"
+  },
   "license": "ISC",
   "dependencies": {
     "react": "^0.14.1",
