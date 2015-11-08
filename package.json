@@ -1,0 +1,23 @@
+{
+  "name": "vk-photo-viewer",
+  "version": "1.0.0",
+  "description": "Playing with React, requirejs, babel and VK api",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "reactjs",
+    "requirejs",
+    "babel",
+    "vk"
+  ],
+  "author": "Nikita Kirsanov",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^0.14.1",
+    "react-dom": "^0.14.1",
+    "requirejs": "^2.1.20",
+    "requirejs-babel": "0.0.8"
+  }
+}

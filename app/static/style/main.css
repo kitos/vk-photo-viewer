@@ -1,0 +1,108 @@
+body {
+    font-family: tahoma, arial, verdana, sans-serif, 'Lucida Sans';
+    font-size: 62.5%;
+}
+
+.right-container {
+    margin-left: 250px;
+}
+
+.friend-list {
+    height: 100%;
+    overflow: auto;
+}
+
+.friend-list__item {
+    border-top: 1px solid #ededed;
+}
+
+.friend-list__item:first-child {
+    border: 0;
+}
+
+.input {
+    font: inherit;
+    font-size: 1.4em;
+    line-height: 1.57em;
+    padding: .3em .3em;
+    border-radius: 4px;
+    background-color: #fff;
+    border: 1px solid #C4C4C4;
+}
+
+/**************************************/
+
+.search-block {
+    height: 50px;
+    padding: 5px;
+    background: #F7F7F7;
+    box-shadow: -2px 2px 6px #C4C4C4;
+    border: 1px solid #C4C4C4;
+    border-top: 0;
+    border-left: 0;
+}
+
+.search-block__input {
+    padding-left: 1.8em;
+    background: #fff url(images/search.svg) no-repeat .2em .4em;
+    background-size: 1.4em;
+}
+
+.search-block__input,
+.search-block__only-inline {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.only-online-text,
+.only-online-checkbox {
+    vertical-align: middle;
+}
+
+/**************************************/
+
+.friend {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.friend--selected {
+    background: #E1E7ED;
+}
+
+.friend--online .friend-name:after {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 100%;
+    background: #2B587A;
+}
+
+.friend-name {
+    color: #2B587A;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    vertical-align: top;
+    margin-left: 8px;
+    position: relative;
+}
+
+/**************************************/
+.friend-block {
+    float: left;
+    width: 250px;
+    height: calc(100vh - 50px);
+}
+
+.image-block {
+    padding: 10px
+}
+
+.message-block {
+    font-size: 2em;
+    padding: 10px;
+}
