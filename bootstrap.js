@@ -8,7 +8,9 @@ requirejs.config({
 
         components: '../app/components',
         services: '../app/services'
-    }
+    },
+    waitSeconds: 15,
+    preserveLicenseComments: false
 });
 
 require([

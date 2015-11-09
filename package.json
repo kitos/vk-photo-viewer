@@ -4,6 +4,7 @@
   "description": "Playing with React, requirejs, babel and VK api",
   "main": "index.html",
   "scripts": {
+    "build": "node node_modules/requirejs/bin/r.js -o  build/app.build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
