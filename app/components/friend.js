@@ -8,7 +8,7 @@ export default class Friend extends React.Component {
             + (this.props.selected ? ' friend--selected' : '')}
                  onClick={this.props.onClick}>
                 <a href={`//vk.com/${this.props.domain}`}>
-                    <img src={this.props.photo_50} alt={this.getFullName()}/>
+                    <img className="friend__avatar" src={this.props.photo_50} alt={this.getFullName()}/>
                 </a>
                 <a href={`//vk.com/${this.props.domain}`} className="friend-name">
                     {this.getFullName()}
